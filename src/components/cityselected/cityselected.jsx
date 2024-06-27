@@ -29,8 +29,7 @@ return(
         </div>
         <div className="card-down">
             <div className="day">
-                <p className="date">Day: {citySearch.localTime.split('')}</p>
-                <p className="time">Hour: {citySearch.localTime}</p>
+                <p className="date">Time: {citySearch.localTime.split('')}</p>
             </div>
             <div className="finally"><p>{citySearch.condition}</p></div>
         </div>

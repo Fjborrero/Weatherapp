@@ -22,7 +22,7 @@ export default function Search () {
     return(
         <section className="search">
             <div className="content--search">
-                <input className="search--input"type="text" value={city} onChange={(e) => setCity(e.target.value)} placeholder="Write a country"/>
+                <input className="search--input"type="text" value={city} onChange={(e) => setCity(e.target.value)} placeholder="Write a city"/>
                 <button className="cancel--button"onClick={handleDeleteSearch}>X</button>
             </div>
                 <CitySelected city={city}/> 

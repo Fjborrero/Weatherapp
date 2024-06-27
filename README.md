@@ -1,8 +1,22 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Wheather App
 
-Currently, two official plugins are available:
+It is an application where you can search the weather in the cities of the world. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+
+## Functionality
+
+To use this application you must type in the search engine the city you want to know what is the temperature to display the values and also if you hover the mouse over the weather card shows you the time of the data and the condition of the city.
+
+
+
+
+## Features
+
+- Develope in react and css
+- Use an api for realtime data
+- Responsive desing 
+- Cross platform
