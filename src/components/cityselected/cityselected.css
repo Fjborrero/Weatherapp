@@ -1,0 +1,88 @@
+
+.box{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 46.64%;
+    left: 50%;
+}
+
+.card{
+    position: absolute;
+    width: 250px;
+    height: 130px;
+    border-radius: 25px;
+    background: whitesmoke;
+    color: black;
+    z-index: 2;
+    transition: .4s ease-in-out;
+}
+.image-condition{
+    position: relative;
+    margin: 1em;
+}
+.weather{
+    font-size: 2em;
+    position: relative;
+    top: -3em;
+    left: 4.3em;
+}
+.country{
+    position: relative;
+    top: -10.2em;
+    left: 14em;
+    font-size: 0.6em;
+}
+
+.card-down{ 
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    text-align: center;
+    color: black;
+    top: 1em;
+    left: -10.5em;
+    margin-top: 0.7em;
+    font-size: 0.7em;
+    transition: .4s ease-in-out;
+    display: none;
+}
+.day{
+    margin: 1em;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finally{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 30px;
+    top: 2.5em;
+    font-size: 1.24em;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background: limegreen;
+    transition: .4s ease-in-out;
+}
+.card:hover {
+    background-color: #FFE87C;
+    cursor: pointer;
+}
+  
+.card:hover + .card-down{
+    height: 80px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: block;
+    background-color: whitesmoke;
+}
+.card:hover + .card-down{
+    top: 4em;
+}
